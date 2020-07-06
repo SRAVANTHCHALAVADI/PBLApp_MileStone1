@@ -3,22 +3,19 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class CalculatorsTest {
-	Calculators c;
+public class PrimeJunitTest {
+	PrimeJunit p;
 	@Before
-	public void sam() {
-		c=new Calculators();
+	public void dem() {
+		p=new PrimeJunit();
 	}
-	
-
 	@Test
 	public void test() {
-		assertEquals(5,c.add(2, 3));
+		assertEquals("prime",p.isprime(3));
 	}
 	@Test
 	public void test1() {
-		assertEquals(6,c.mul(2, 3));
+		assertEquals("prime",p.isprime(7));
 	}
-	
 
 }

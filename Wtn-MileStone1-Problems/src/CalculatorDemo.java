@@ -12,8 +12,8 @@ static double powerDouble(double num1,int num2)
 public class CalculatorDemo{
 
     public static void main(String[] args) {
-    System.out.println(Calculators.powerInt(5,2));
-    System.out.println(Calculators.powerDouble(5.2, 2));
+    System.out.println(Calculator.powerInt(5,2));
+    System.out.println(Calculator.powerDouble(5.2, 2));
     
     }
 
